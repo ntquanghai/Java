@@ -10,7 +10,7 @@ public class CheckAnagramsTest {
     public void CheckAnagrams() {
         String testString1 = "STUDY";
         String testString2 = "DUSTY";
-        assertTrue(CheckAnagrams.isAnagrams(testString1,testString2));
+        assertTrue(ChekAnagrams.isAnagrams(testString1,testString2));
     }
 
     @Test

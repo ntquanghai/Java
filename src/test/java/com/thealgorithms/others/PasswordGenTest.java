@@ -34,4 +34,10 @@ public class PasswordGenTest {
         String tempPassword = PasswordGen.generatePassword(8, 16);
         assertTrue(tempPassword.length()!=0);
     }
+
+    @Test
+    public void wrongGenerationPassword() {
+        String tempPassword = PasswordGen.generatePassword(8, 8);
+        assertTrue(tempPassword.length()!=0);
+    }
 }
